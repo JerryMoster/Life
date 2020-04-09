@@ -1,32 +1,16 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <!-- <Demo /> -->
-    <!-- <Events/> -->
-    <!-- <DemoFilter /> -->
-    <!-- <TransitionAndAnimate /> -->
-    <TransitionAndAnimateTwo />
-    <TransitionAndAnimateThree />
+    <life />
   </div>
 </template>
 
 <script>
-// import Demo from './components/Demo.vue';
-// import Events from './components/Events'
-// import DemoFilter from './components/DemoFilter'
-// import TransitionAndAnimate from './components/TransitionAndAnimate.vue'
-// import TransitionAndAnimateTwo from './components/TransitionAndAnimateTwo.vue'
-import TransitionAndAnimateThree from './components/TransitionAndAnimateThree.vue'
-
+import Life from './components/Life'
 export default {
   name: 'App',
   components: {
-    // Demo,
-    // Events
-    // DemoFilter,
-    // TransitionAndAnimate,
-    // TransitionAndAnimateTwo
-    TransitionAndAnimateThree
+    Life
   }
 }
 </script>
